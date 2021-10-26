@@ -4,14 +4,13 @@ import { useOnClickOutside } from './hooks';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Burger, Menu, AboutUs, Home, Meats } from './components';
-import {HashRouter as Router, Switch, Route} from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 
 function App() {
   const [open, setOpen] = useState(false);
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
   return (
-    <Router>
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
@@ -26,7 +25,6 @@ function App() {
           <Route path="/meats" component={Meats}/>
         </Switch>
     </ThemeProvider>
-    </Router>
   );
 }
 export default App;
