@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-    <NavLink to="/moonsmeat">
+    <NavLink to="/home">
         <span role="img" aria-label="home">&#127968;</span>
         Home
     </NavLink>

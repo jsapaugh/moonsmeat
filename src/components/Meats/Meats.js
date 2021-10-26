@@ -7,19 +7,19 @@ const Meats = ({ props }) => {
     <div className="row">
     <Link to="/meats" />
       <div className="column">
-        <img alt="Tri Tip" src="./TriTip.jpeg"/>
-        <img alt="Brisket" src="./Brisket.jpeg"/>
-        <img alt="Lollipop Chicken" src="./LollipopChickenLegs.jpeg"/>
+        <img alt="Tri Tip" src={process.env.PUBLIC_URL + "/TriTip.jpeg"}/>
+        <img alt="Brisket" src={process.env.PUBLIC_URL + "/Brisket.jpeg"}/>
+        <img alt="Lollipop Chicken" src={process.env.PUBLIC_URL + "/LollipopChickenLegs.jpeg"}/>
       </div>
       <div className="column">
-        <img alt="Glazed Smoked Chicken Wings" src="./GlazedSmokedChickenWings.jpeg"/>
-        <img alt="Picanha" src="./Picanha.jpeg"/>
-        <img alt="Pork Butt" src="./PorkButt.jpeg"/>
+        <img alt="Glazed Smoked Chicken Wings" src={process.env.PUBLIC_URL + "/GlazedSmokedChickenWings.jpeg"}/>
+        <img alt="Picanha" src={process.env.PUBLIC_URL + "/Picanha.jpeg"}/>
+        <img alt="Pork Butt" src={process.env.PUBLIC_URL + "/PorkButt.jpeg"}/>
       </div>
       <div className="column">
-        <img alt="Various Meats" src="./VariousMeats.jpeg"/>
-        <img alt="Beef Rib Shorties" src="./BeefRibShorties.jpeg"/>
-        <img alt="Smoked Chicken Thighs" src="./SmokedChickenThighs.jpeg"/>
+        <img alt="Various Meats" src={process.env.PUBLIC_URL + "/VariousMeats.jpeg"}/>
+        <img alt="Beef Rib Shorties" src={process.env.PUBLIC_URL + "/BeefRibShorties.jpeg"}/>
+        <img alt="Smoked Chicken Thighs" src={process.env.PUBLIC_URL + "/SmokedChickenThighs.jpeg"}/>
       </div>
       <div className="column">
 

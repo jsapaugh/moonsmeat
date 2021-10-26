@@ -4,7 +4,7 @@ import { useOnClickOutside } from './hooks';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Burger, Menu, AboutUs, Home, Meats } from './components';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -21,7 +21,7 @@ function App() {
         </div>
       </>
         <Switch>
-          <Route path="/moonsmeat" component={Home} exact/>
+          <Route path="/home" component={Home} exact/>
           <Route path="/about-us" component={AboutUs}/>
           <Route path="/meats" component={Meats}/>
         </Switch>
