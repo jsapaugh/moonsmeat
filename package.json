@@ -1,6 +1,6 @@
 {
   "name": "moonsmeatsapp",
-  "homepage" : "http://jsapaugh.github.io/moonsmeat",
+  "homepage": "http://jsapaugh.github.io/moonsmeat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
